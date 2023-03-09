@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-box {
+    position: relative;
+    border-radius: 15px;
+    padding: 1.5em;
+    width: 92vw;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--dark-grayish-blue);
+}
+
+h1 {
+    color: var(--neon-green);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    margin-top: 2em;
+}
+
+#advice-content {
+    color: var(--light-cyan);
+    font-size: 28px;
+}
+
+#divider {
+    width: 100%;
+    height: 20px;
+    background-image: url('../images/pattern-divider-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2.5em;
+}
+
+#btn-div {
+    position: relative;
+    width: 100%;
+}
+
+#new-advice-btn {
+    background-image: url('../images/icon-dice.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-color: var(--neon-green);
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    position: absolute;
+    top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}

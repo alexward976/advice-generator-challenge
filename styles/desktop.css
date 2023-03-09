@@ -1,0 +1,30 @@
+@media only screen and (min-width: 376px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .advice-box {
+        width: 35vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    #advice-content {
+        font-size: 26px;
+    }
+
+    #divider {
+        background-image: url('../images/pattern-divider-desktop.svg');
+    }
+
+    #new-advice-btn {
+        width: 60px;
+        height: 60px;
+
+        background-size: 23px;
+    }
+}
